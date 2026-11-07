@@ -1,3 +1,4 @@
+import { i18n, t } from './i18n.js';
 import { createEmptyCard, fsrs, Rating } from 'ts-fsrs';
 import { inRegion, places, ROUND_COUNT } from './game.js';
 
@@ -8,9 +9,9 @@ export const cards = places.flatMap((place) => ['country', 'capital'].map((kind)
   ...(kind === 'country' ? { lat: place.countryLat, lng: place.countryLng } : {}),
 })));
 export const cardKey = (question) => `${question.id}:${question.kind}`;
-export const cardTitle = (question) => question.kind === 'country' ? question.country : question.capital;
-export const gradeNames = { [Rating.Again]: 'Repetir', [Rating.Hard]: 'Difícil', [Rating.Good]: 'Bom', [Rating.Easy]: 'Fácil' };
-export const stateNames = ['Novo', 'Aprendendo', 'Em revisão', 'Reaprendendo'];
+export const cardTitle = (question) => t(question.kind === 'country' ? question.country : question.capital);
+export const gradeNames = { [Rating.Again]: 'Again', [Rating.Hard]: 'Hard', [Rating.Good]: 'Good', [Rating.Easy]: 'Easy' };
+export const stateNames = ['New', 'Learning', 'Reviewing', 'Relearning'];
 
 export function confidence(card, now = new Date()) {
   if (!card?.last_review) return null;
@@ -46,13 +47,16 @@ export function studyQueue(records, mode = 'mixed', now = new Date(), region = '
 }
 
 export function dueLabel(date, now = new Date()) {
-  if (!date) return 'Não estudado';
+  if (!date) return t('Not studied');
   const minutes = Math.ceil((new Date(date) - now) / 60000);
-  if (minutes <= 0) return 'Agora';
-  if (minutes < 60) return `Em ${minutes} min`;
-  if (minutes < 1440) return `Em ${Math.ceil(minutes / 60)} h`;
-  if (minutes < 1440 * 30) return `Em ${Math.ceil(minutes / 1440)} dias`;
-  return new Date(date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+  if (minutes <= 0) return t('Now');
+  if (minutes < 60) return t('In {{count}} min', { count: minutes });
+  if (minutes < 1440) return t('In {{count}} h', { count: Math.ceil(minutes / 60) });
+  if (minutes < 1440 * 30) {
+    const days = Math.ceil(minutes / 1440);
+    return t(days === 1 ? 'In {{count}} day' : 'In {{count}} days', { count: days });
+  }
+  return new Date(date).toLocaleDateString(i18n.language === 'pt' ? 'pt-BR' : 'en-US', { day: '2-digit', month: 'short', year: 'numeric' });
 }
 
 function restoreRecord(record) {
@@ -81,7 +85,7 @@ export function loadProgress(storage) {
     }));
     return { records, error: '', canPersist: true };
   } catch {
-    return { records: {}, error: 'Não foi possível ler o progresso salvo. Os dados existentes serão preservados; as novas respostas ficarão apenas nesta sessão.', canPersist: false };
+    return { records: {}, error: 'Unable to read saved progress. Existing data will be preserved; new answers will last for this session only.', canPersist: false };
   }
 }
 

@@ -1,15 +1,11 @@
-# Dados geográficos
+# Geographic data
 
-`places.json` é um snapshot local com 177 países e territórios presentes no mapa. Destes, 167 países têm os dois cartões disponíveis para estudo (334 cartões). Os identificadores ISO numéricos dos 34 países originais foram mantidos, preservando seu histórico FSRS.
+`places.json` contains 177 countries and territories, with 167 countries available for study. Country IDs are stable so existing FSRS history is preserved.
 
-Fontes:
+- Names, capitals, regions and flags: [mledoze/countries](https://github.com/mledoze/countries), under [ODbL 1.0](https://github.com/mledoze/countries/blob/master/LICENSE).
+- Capital coordinates: [Natural Earth populated places](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places_simple.geojson), public domain. Original coordinates are retained, with explicit adjustments for El Aaiún and Port-aux-Français.
+- Borders: Natural Earth via `world-atlas`, at 1:110 million scale. Very small territories may be omitted.
 
-- Nomes, capitais, regiões e bandeiras: [mledoze/countries](https://github.com/mledoze/countries), sob [ODbL 1.0](https://github.com/mledoze/countries/blob/master/LICENSE). Os nomes dos países foram adaptados para português brasileiro; as capitais originais e os nomes comuns do Oriente Médio também estão em português.
-- Coordenadas das capitais: [Natural Earth populated places](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places_simple.geojson), domínio público. Mantivemos as coordenadas dos lugares originais; as coordenadas de El Aaiún e Port-aux-Français foram ajustadas explicitamente.
-- Fronteiras: Natural Earth via `world-atlas`, escala 1:110 milhões. Territórios muito pequenos podem não aparecer nesta escala.
+Country questions use polygon boundaries. Capital questions use capital coordinates. Middle East includes Cyprus, Egypt, Turkey, Iran, the Levant and the Arabian Peninsula. Latin America includes 20 independent Latin-language countries. North America includes Central America and the Caribbean.
 
-Os pontos `countryLat`/`countryLng` apenas centralizam e indicam o país. As respostas de capitais usam `lat`/`lng`; respostas de países usam o polígono, sem tolerância baseada no centro.
-
-Oriente Médio: Chipre, Egito, Turquia, Irã e os países do Levante e da Península Arábica presentes no mapa. América Latina: os 20 países independentes de línguas latinas das Américas. América do Norte inclui América Central e Caribe; há filtros separados para essas sub-regiões. Esses recortes são opções de estudo, não alterações nas fronteiras.
-
-Os dados e bandeiras são incluídos no build. Não há consultas externas durante o uso do app.
+All data is bundled locally; the app makes no external API requests.

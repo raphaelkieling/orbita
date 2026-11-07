@@ -11,18 +11,18 @@ export const atlasPlaces = geography;
 export const places = geography.filter((place) => place.study);
 
 export const regions = [
-  { id: 'world', name: 'Mundo', lat: 15, lng: -28, altitude: 2.15 },
-  { id: 'middle-east', name: 'Oriente Médio', lat: 28, lng: 44, altitude: 1.35 },
-  { id: 'latin-america', name: 'América Latina', lat: -5, lng: -70, altitude: 1.9 },
-  { id: 'south-america', name: 'América do Sul', lat: -20, lng: -60, altitude: 1.65 },
-  { id: 'north-america', name: 'América do Norte', lat: 42, lng: -102, altitude: 1.8 },
-  { id: 'central-america', name: 'América Central', lat: 16, lng: -88, altitude: 1.15 },
-  { id: 'caribbean', name: 'Caribe', lat: 19, lng: -73, altitude: 1.1 },
-  { id: 'europe', name: 'Europa', lat: 51, lng: 16, altitude: 1.45 },
-  { id: 'africa', name: 'África', lat: 1, lng: 20, altitude: 1.8 },
-  { id: 'asia', name: 'Ásia', lat: 32, lng: 95, altitude: 1.9 },
-  { id: 'east-asia', name: 'Leste Asiático', lat: 36, lng: 117, altitude: 1.5 },
-  { id: 'southeast-asia', name: 'Sudeste Asiático', lat: 8, lng: 110, altitude: 1.4 },
+  { id: 'world', name: 'World', lat: 15, lng: -28, altitude: 2.15 },
+  { id: 'middle-east', name: 'Middle East', lat: 28, lng: 44, altitude: 1.35 },
+  { id: 'latin-america', name: 'Latin America', lat: -5, lng: -70, altitude: 1.9 },
+  { id: 'south-america', name: 'South America', lat: -20, lng: -60, altitude: 1.65 },
+  { id: 'north-america', name: 'North America', lat: 42, lng: -102, altitude: 1.8 },
+  { id: 'central-america', name: 'Central America', lat: 16, lng: -88, altitude: 1.15 },
+  { id: 'caribbean', name: 'Caribbean', lat: 19, lng: -73, altitude: 1.1 },
+  { id: 'europe', name: 'Europe', lat: 51, lng: 16, altitude: 1.45 },
+  { id: 'africa', name: 'Africa', lat: 1, lng: 20, altitude: 1.8 },
+  { id: 'asia', name: 'Asia', lat: 32, lng: 95, altitude: 1.9 },
+  { id: 'east-asia', name: 'East Asia', lat: 36, lng: 117, altitude: 1.5 },
+  { id: 'southeast-asia', name: 'Southeast Asia', lat: 8, lng: 110, altitude: 1.4 },
   { id: 'oceania', name: 'Oceania', lat: -25, lng: 150, altitude: 1.8 },
 ];
 
@@ -74,5 +74,5 @@ export function evaluateGuess(question, guess) {
 }
 
 export function coordinates({ lat, lng }) {
-  return `${Math.abs(lat).toFixed(1)}° ${lat >= 0 ? 'N' : 'S'}, ${Math.abs(lng).toFixed(1)}° ${lng >= 0 ? 'L' : 'O'}`;
+  return `${Math.abs(lat).toFixed(1)}° ${lat >= 0 ? 'N' : 'S'}, ${Math.abs(lng).toFixed(1)}° ${lng >= 0 ? 'E' : 'W'}`;
 }

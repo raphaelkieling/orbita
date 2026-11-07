@@ -20,7 +20,7 @@
   {
     "id": "834",
     "code": "TZ",
-    "country": "Tanzânia",
+    "country": "Tanzania",
     "capital": "Dodoma",
     "capitals": [
       "Dodoma"
@@ -38,7 +38,7 @@
   {
     "id": "732",
     "code": "EH",
-    "country": "Saara Ocidental",
+    "country": "Western Sahara",
     "capital": "El Aaiún",
     "capitals": [
       "El Aaiún"
@@ -56,7 +56,7 @@
   {
     "id": "124",
     "code": "CA",
-    "country": "Canadá",
+    "country": "Canada",
     "capital": "Ottawa",
     "capitals": [
       "Ottawa"
@@ -74,10 +74,10 @@
   {
     "id": "840",
     "code": "US",
-    "country": "Estados Unidos",
-    "capital": "Washington, D.C.",
+    "country": "United States",
+    "capital": "Washington D.C.",
     "capitals": [
-      "Washington, D.C."
+      "Washington D.C."
     ],
     "flag": "🇺🇸",
     "region": "Americas",
@@ -92,7 +92,7 @@
   {
     "id": "398",
     "code": "KZ",
-    "country": "Cazaquistão",
+    "country": "Kazakhstan",
     "capital": "Astana",
     "capitals": [
       "Astana"
@@ -110,7 +110,7 @@
   {
     "id": "860",
     "code": "UZ",
-    "country": "Uzbequistão",
+    "country": "Uzbekistan",
     "capital": "Tashkent",
     "capitals": [
       "Tashkent"
@@ -128,7 +128,7 @@
   {
     "id": "598",
     "code": "PG",
-    "country": "Papua-Nova Guiné",
+    "country": "Papua New Guinea",
     "capital": "Port Moresby",
     "capitals": [
       "Port Moresby"
@@ -146,7 +146,7 @@
   {
     "id": "360",
     "code": "ID",
-    "country": "Indonésia",
+    "country": "Indonesia",
     "capital": "Jakarta",
     "capitals": [
       "Jakarta"
@@ -200,7 +200,7 @@
   {
     "id": "180",
     "code": "CD",
-    "country": "Congo - Kinshasa",
+    "country": "DR Congo",
     "capital": "Kinshasa",
     "capitals": [
       "Kinshasa"
@@ -218,7 +218,7 @@
   {
     "id": "706",
     "code": "SO",
-    "country": "Somália",
+    "country": "Somalia",
     "capital": "Mogadishu",
     "capitals": [
       "Mogadishu"
@@ -236,10 +236,10 @@
   {
     "id": "404",
     "code": "KE",
-    "country": "Quênia",
-    "capital": "Nairóbi",
+    "country": "Kenya",
+    "capital": "Nairobi",
     "capitals": [
-      "Nairóbi"
+      "Nairobi"
     ],
     "flag": "🇰🇪",
     "region": "Africa",
@@ -254,7 +254,7 @@
   {
     "id": "729",
     "code": "SD",
-    "country": "Sudão",
+    "country": "Sudan",
     "capital": "Khartoum",
     "capitals": [
       "Khartoum"
@@ -272,7 +272,7 @@
   {
     "id": "148",
     "code": "TD",
-    "country": "Chade",
+    "country": "Chad",
     "capital": "N'Djamena",
     "capitals": [
       "N'Djamena"
@@ -308,7 +308,7 @@
   {
     "id": "214",
     "code": "DO",
-    "country": "República Dominicana",
+    "country": "Dominican Republic",
     "capital": "Santo Domingo",
     "capitals": [
       "Santo Domingo"
@@ -326,7 +326,7 @@
   {
     "id": "643",
     "code": "RU",
-    "country": "Rússia",
+    "country": "Russia",
     "capital": "Moscow",
     "capitals": [
       "Moscow"
@@ -362,7 +362,7 @@
   {
     "id": "238",
     "code": "FK",
-    "country": "Ilhas Malvinas",
+    "country": "Falkland Islands",
     "capital": "Stanley",
     "capitals": [
       "Stanley"
@@ -380,7 +380,7 @@
   {
     "id": "578",
     "code": "NO",
-    "country": "Noruega",
+    "country": "Norway",
     "capital": "Oslo",
     "capitals": [
       "Oslo"
@@ -398,7 +398,7 @@
   {
     "id": "304",
     "code": "GL",
-    "country": "Groenlândia",
+    "country": "Greenland",
     "capital": "Nuuk",
     "capitals": [
       "Nuuk"
@@ -416,7 +416,7 @@
   {
     "id": "260",
     "code": "TF",
-    "country": "Territórios Franceses do Sul",
+    "country": "French Southern and Antarctic Lands",
     "capital": "Port-aux-Français",
     "capitals": [
       "Port-aux-Français"
@@ -452,7 +452,7 @@
   {
     "id": "710",
     "code": "ZA",
-    "country": "África do Sul",
+    "country": "South Africa",
     "capital": "Pretoria",
     "capitals": [
       "Pretoria",
@@ -472,7 +472,7 @@
   {
     "id": "426",
     "code": "LS",
-    "country": "Lesoto",
+    "country": "Lesotho",
     "capital": "Maseru",
     "capitals": [
       "Maseru"
@@ -490,10 +490,10 @@
   {
     "id": "484",
     "code": "MX",
-    "country": "México",
-    "capital": "Cidade do México",
+    "country": "Mexico",
+    "capital": "Mexico City",
     "capitals": [
-      "Cidade do México"
+      "Mexico City"
     ],
     "flag": "🇲🇽",
     "region": "Americas",
@@ -508,7 +508,7 @@
   {
     "id": "858",
     "code": "UY",
-    "country": "Uruguai",
+    "country": "Uruguay",
     "capital": "Montevideo",
     "capitals": [
       "Montevideo"
@@ -526,7 +526,7 @@
   {
     "id": "076",
     "code": "BR",
-    "country": "Brasil",
+    "country": "Brazil",
     "capital": "Brasília",
     "capitals": [
       "Brasília"
@@ -544,7 +544,7 @@
   {
     "id": "068",
     "code": "BO",
-    "country": "Bolívia",
+    "country": "Bolivia",
     "capital": "Sucre",
     "capitals": [
       "Sucre"
@@ -580,7 +580,7 @@
   {
     "id": "170",
     "code": "CO",
-    "country": "Colômbia",
+    "country": "Colombia",
     "capital": "Bogotá",
     "capitals": [
       "Bogotá"
@@ -598,7 +598,7 @@
   {
     "id": "591",
     "code": "PA",
-    "country": "Panamá",
+    "country": "Panama",
     "capital": "Panama City",
     "capitals": [
       "Panama City"
@@ -634,7 +634,7 @@
   {
     "id": "558",
     "code": "NI",
-    "country": "Nicarágua",
+    "country": "Nicaragua",
     "capital": "Managua",
     "capitals": [
       "Managua"
@@ -742,7 +742,7 @@
   {
     "id": "328",
     "code": "GY",
-    "country": "Guiana",
+    "country": "Guyana",
     "capital": "Georgetown",
     "capitals": [
       "Georgetown"
@@ -778,7 +778,7 @@
   {
     "id": "250",
     "code": "FR",
-    "country": "França",
+    "country": "France",
     "capital": "Paris",
     "capitals": [
       "Paris"
@@ -796,7 +796,7 @@
   {
     "id": "218",
     "code": "EC",
-    "country": "Equador",
+    "country": "Ecuador",
     "capital": "Quito",
     "capitals": [
       "Quito"
@@ -814,7 +814,7 @@
   {
     "id": "630",
     "code": "PR",
-    "country": "Porto Rico",
+    "country": "Puerto Rico",
     "capital": "San Juan",
     "capitals": [
       "San Juan"
@@ -868,7 +868,7 @@
   {
     "id": "716",
     "code": "ZW",
-    "country": "Zimbábue",
+    "country": "Zimbabwe",
     "capital": "Harare",
     "capitals": [
       "Harare"
@@ -886,7 +886,7 @@
   {
     "id": "072",
     "code": "BW",
-    "country": "Botsuana",
+    "country": "Botswana",
     "capital": "Gaborone",
     "capitals": [
       "Gaborone"
@@ -904,7 +904,7 @@
   {
     "id": "516",
     "code": "NA",
-    "country": "Namíbia",
+    "country": "Namibia",
     "capital": "Windhoek",
     "capitals": [
       "Windhoek"
@@ -923,9 +923,9 @@
     "id": "686",
     "code": "SN",
     "country": "Senegal",
-    "capital": "Dacar",
+    "capital": "Dakar",
     "capitals": [
-      "Dacar"
+      "Dakar"
     ],
     "flag": "🇸🇳",
     "region": "Africa",
@@ -958,7 +958,7 @@
   {
     "id": "478",
     "code": "MR",
-    "country": "Mauritânia",
+    "country": "Mauritania",
     "capital": "Nouakchott",
     "capitals": [
       "Nouakchott"
@@ -994,7 +994,7 @@
   {
     "id": "562",
     "code": "NE",
-    "country": "Níger",
+    "country": "Niger",
     "capital": "Niamey",
     "capitals": [
       "Niamey"
@@ -1012,7 +1012,7 @@
   {
     "id": "566",
     "code": "NG",
-    "country": "Nigéria",
+    "country": "Nigeria",
     "capital": "Abuja",
     "capitals": [
       "Abuja"
@@ -1030,7 +1030,7 @@
   {
     "id": "120",
     "code": "CM",
-    "country": "Camarões",
+    "country": "Cameroon",
     "capital": "Yaoundé",
     "capitals": [
       "Yaoundé"
@@ -1066,7 +1066,7 @@
   {
     "id": "288",
     "code": "GH",
-    "country": "Gana",
+    "country": "Ghana",
     "capital": "Accra",
     "capitals": [
       "Accra"
@@ -1084,7 +1084,7 @@
   {
     "id": "384",
     "code": "CI",
-    "country": "Costa do Marfim",
+    "country": "Ivory Coast",
     "capital": "Yamoussoukro",
     "capitals": [
       "Yamoussoukro"
@@ -1102,7 +1102,7 @@
   {
     "id": "324",
     "code": "GN",
-    "country": "Guiné",
+    "country": "Guinea",
     "capital": "Conakry",
     "capitals": [
       "Conakry"
@@ -1120,7 +1120,7 @@
   {
     "id": "624",
     "code": "GW",
-    "country": "Guiné-Bissau",
+    "country": "Guinea-Bissau",
     "capital": "Bissau",
     "capitals": [
       "Bissau"
@@ -1138,7 +1138,7 @@
   {
     "id": "430",
     "code": "LR",
-    "country": "Libéria",
+    "country": "Liberia",
     "capital": "Monrovia",
     "capitals": [
       "Monrovia"
@@ -1156,7 +1156,7 @@
   {
     "id": "694",
     "code": "SL",
-    "country": "Serra Leoa",
+    "country": "Sierra Leone",
     "capital": "Freetown",
     "capitals": [
       "Freetown"
@@ -1174,7 +1174,7 @@
   {
     "id": "854",
     "code": "BF",
-    "country": "Burquina Faso",
+    "country": "Burkina Faso",
     "capital": "Ouagadougou",
     "capitals": [
       "Ouagadougou"
@@ -1192,7 +1192,7 @@
   {
     "id": "140",
     "code": "CF",
-    "country": "República Centro-Africana",
+    "country": "Central African Republic",
     "capital": "Bangui",
     "capitals": [
       "Bangui"
@@ -1210,7 +1210,7 @@
   {
     "id": "178",
     "code": "CG",
-    "country": "República do Congo",
+    "country": "Congo",
     "capital": "Brazzaville",
     "capitals": [
       "Brazzaville"
@@ -1228,7 +1228,7 @@
   {
     "id": "266",
     "code": "GA",
-    "country": "Gabão",
+    "country": "Gabon",
     "capital": "Libreville",
     "capitals": [
       "Libreville"
@@ -1246,7 +1246,7 @@
   {
     "id": "226",
     "code": "GQ",
-    "country": "Guiné Equatorial",
+    "country": "Equatorial Guinea",
     "capital": "Ciudad de la Paz",
     "capitals": [
       "Ciudad de la Paz"
@@ -1264,7 +1264,7 @@
   {
     "id": "894",
     "code": "ZM",
-    "country": "Zâmbia",
+    "country": "Zambia",
     "capital": "Lusaka",
     "capitals": [
       "Lusaka"
@@ -1282,7 +1282,7 @@
   {
     "id": "454",
     "code": "MW",
-    "country": "Malaui",
+    "country": "Malawi",
     "capital": "Lilongwe",
     "capitals": [
       "Lilongwe"
@@ -1300,7 +1300,7 @@
   {
     "id": "508",
     "code": "MZ",
-    "country": "Moçambique",
+    "country": "Mozambique",
     "capital": "Maputo",
     "capitals": [
       "Maputo"
@@ -1318,7 +1318,7 @@
   {
     "id": "748",
     "code": "SZ",
-    "country": "Essuatíni",
+    "country": "Eswatini",
     "capital": "Lobamba",
     "capitals": [
       "Lobamba"
@@ -1373,9 +1373,9 @@
     "id": "376",
     "code": "IL",
     "country": "Israel",
-    "capital": "Jerusalém",
+    "capital": "Jerusalem",
     "capitals": [
-      "Jerusalém"
+      "Jerusalem"
     ],
     "flag": "🇮🇱",
     "region": "Asia",
@@ -1390,10 +1390,10 @@
   {
     "id": "422",
     "code": "LB",
-    "country": "Líbano",
-    "capital": "Beirute",
+    "country": "Lebanon",
+    "capital": "Beirut",
     "capitals": [
-      "Beirute"
+      "Beirut"
     ],
     "flag": "🇱🇧",
     "region": "Asia",
@@ -1426,7 +1426,7 @@
   {
     "id": "275",
     "code": "PS",
-    "country": "Territórios palestinos",
+    "country": "Palestine",
     "capital": "Ramallah",
     "capitals": [
       "Ramallah"
@@ -1444,7 +1444,7 @@
   {
     "id": "270",
     "code": "GM",
-    "country": "Gâmbia",
+    "country": "Gambia",
     "capital": "Banjul",
     "capitals": [
       "Banjul"
@@ -1462,7 +1462,7 @@
   {
     "id": "788",
     "code": "TN",
-    "country": "Tunísia",
+    "country": "Tunisia",
     "capital": "Tunis",
     "capitals": [
       "Tunis"
@@ -1480,7 +1480,7 @@
   {
     "id": "012",
     "code": "DZ",
-    "country": "Argélia",
+    "country": "Algeria",
     "capital": "Algiers",
     "capitals": [
       "Algiers"
@@ -1498,10 +1498,10 @@
   {
     "id": "400",
     "code": "JO",
-    "country": "Jordânia",
-    "capital": "Amã",
+    "country": "Jordan",
+    "capital": "Amman",
     "capitals": [
-      "Amã"
+      "Amman"
     ],
     "flag": "🇯🇴",
     "region": "Asia",
@@ -1516,7 +1516,7 @@
   {
     "id": "784",
     "code": "AE",
-    "country": "Emirados Árabes Unidos",
+    "country": "United Arab Emirates",
     "capital": "Abu Dhabi",
     "capitals": [
       "Abu Dhabi"
@@ -1534,7 +1534,7 @@
   {
     "id": "634",
     "code": "QA",
-    "country": "Catar",
+    "country": "Qatar",
     "capital": "Doha",
     "capitals": [
       "Doha"
@@ -1553,9 +1553,9 @@
     "id": "414",
     "code": "KW",
     "country": "Kuwait",
-    "capital": "Cidade do Kuwait",
+    "capital": "Kuwait City",
     "capitals": [
-      "Cidade do Kuwait"
+      "Kuwait City"
     ],
     "flag": "🇰🇼",
     "region": "Asia",
@@ -1570,10 +1570,10 @@
   {
     "id": "368",
     "code": "IQ",
-    "country": "Iraque",
-    "capital": "Bagdá",
+    "country": "Iraq",
+    "capital": "Baghdad",
     "capitals": [
-      "Bagdá"
+      "Baghdad"
     ],
     "flag": "🇮🇶",
     "region": "Asia",
@@ -1588,10 +1588,10 @@
   {
     "id": "512",
     "code": "OM",
-    "country": "Omã",
-    "capital": "Mascate",
+    "country": "Oman",
+    "capital": "Muscat",
     "capitals": [
-      "Mascate"
+      "Muscat"
     ],
     "flag": "🇴🇲",
     "region": "Asia",
@@ -1624,7 +1624,7 @@
   {
     "id": "116",
     "code": "KH",
-    "country": "Camboja",
+    "country": "Cambodia",
     "capital": "Phnom Penh",
     "capitals": [
       "Phnom Penh"
@@ -1642,10 +1642,10 @@
   {
     "id": "764",
     "code": "TH",
-    "country": "Tailândia",
-    "capital": "Bangcoc",
+    "country": "Thailand",
+    "capital": "Bangkok",
     "capitals": [
-      "Bangcoc"
+      "Bangkok"
     ],
     "flag": "🇹🇭",
     "region": "Asia",
@@ -1678,7 +1678,7 @@
   {
     "id": "104",
     "code": "MM",
-    "country": "Mianmar (Birmânia)",
+    "country": "Myanmar",
     "capital": "Naypyidaw",
     "capitals": [
       "Naypyidaw"
@@ -1696,10 +1696,10 @@
   {
     "id": "704",
     "code": "VN",
-    "country": "Vietnã",
-    "capital": "Hanói",
+    "country": "Vietnam",
+    "capital": "Hanoi",
     "capitals": [
-      "Hanói"
+      "Hanoi"
     ],
     "flag": "🇻🇳",
     "region": "Asia",
@@ -1714,7 +1714,7 @@
   {
     "id": "408",
     "code": "KP",
-    "country": "Coreia do Norte",
+    "country": "North Korea",
     "capital": "Pyongyang",
     "capitals": [
       "Pyongyang"
@@ -1732,10 +1732,10 @@
   {
     "id": "410",
     "code": "KR",
-    "country": "Coreia do Sul",
-    "capital": "Seul",
+    "country": "South Korea",
+    "capital": "Seoul",
     "capitals": [
-      "Seul"
+      "Seoul"
     ],
     "flag": "🇰🇷",
     "region": "Asia",
@@ -1750,7 +1750,7 @@
   {
     "id": "496",
     "code": "MN",
-    "country": "Mongólia",
+    "country": "Mongolia",
     "capital": "Ulan Bator",
     "capitals": [
       "Ulan Bator"
@@ -1768,10 +1768,10 @@
   {
     "id": "356",
     "code": "IN",
-    "country": "Índia",
-    "capital": "Nova Délhi",
+    "country": "India",
+    "capital": "New Delhi",
     "capitals": [
-      "Nova Délhi"
+      "New Delhi"
     ],
     "flag": "🇮🇳",
     "region": "Asia",
@@ -1804,7 +1804,7 @@
   {
     "id": "064",
     "code": "BT",
-    "country": "Butão",
+    "country": "Bhutan",
     "capital": "Thimphu",
     "capitals": [
       "Thimphu"
@@ -1840,7 +1840,7 @@
   {
     "id": "586",
     "code": "PK",
-    "country": "Paquistão",
+    "country": "Pakistan",
     "capital": "Islamabad",
     "capitals": [
       "Islamabad"
@@ -1858,7 +1858,7 @@
   {
     "id": "004",
     "code": "AF",
-    "country": "Afeganistão",
+    "country": "Afghanistan",
     "capital": "Kabul",
     "capitals": [
       "Kabul"
@@ -1876,7 +1876,7 @@
   {
     "id": "762",
     "code": "TJ",
-    "country": "Tadjiquistão",
+    "country": "Tajikistan",
     "capital": "Dushanbe",
     "capitals": [
       "Dushanbe"
@@ -1894,7 +1894,7 @@
   {
     "id": "417",
     "code": "KG",
-    "country": "Quirguistão",
+    "country": "Kyrgyzstan",
     "capital": "Bishkek",
     "capitals": [
       "Bishkek"
@@ -1912,7 +1912,7 @@
   {
     "id": "795",
     "code": "TM",
-    "country": "Turcomenistão",
+    "country": "Turkmenistan",
     "capital": "Ashgabat",
     "capitals": [
       "Ashgabat"
@@ -1930,10 +1930,10 @@
   {
     "id": "364",
     "code": "IR",
-    "country": "Irã",
-    "capital": "Teerã",
+    "country": "Iran",
+    "capital": "Tehran",
     "capitals": [
-      "Teerã"
+      "Tehran"
     ],
     "flag": "🇮🇷",
     "region": "Asia",
@@ -1948,10 +1948,10 @@
   {
     "id": "760",
     "code": "SY",
-    "country": "Síria",
-    "capital": "Damasco",
+    "country": "Syria",
+    "capital": "Damascus",
     "capitals": [
-      "Damasco"
+      "Damascus"
     ],
     "flag": "🇸🇾",
     "region": "Asia",
@@ -1966,7 +1966,7 @@
   {
     "id": "051",
     "code": "AM",
-    "country": "Armênia",
+    "country": "Armenia",
     "capital": "Yerevan",
     "capitals": [
       "Yerevan"
@@ -1984,10 +1984,10 @@
   {
     "id": "752",
     "code": "SE",
-    "country": "Suécia",
-    "capital": "Estocolmo",
+    "country": "Sweden",
+    "capital": "Stockholm",
     "capitals": [
-      "Estocolmo"
+      "Stockholm"
     ],
     "flag": "🇸🇪",
     "region": "Europe",
@@ -2002,7 +2002,7 @@
   {
     "id": "112",
     "code": "BY",
-    "country": "Bielorrússia",
+    "country": "Belarus",
     "capital": "Minsk",
     "capitals": [
       "Minsk"
@@ -2020,7 +2020,7 @@
   {
     "id": "804",
     "code": "UA",
-    "country": "Ucrânia",
+    "country": "Ukraine",
     "capital": "Kyiv",
     "capitals": [
       "Kyiv"
@@ -2038,10 +2038,10 @@
   {
     "id": "616",
     "code": "PL",
-    "country": "Polônia",
-    "capital": "Varsóvia",
+    "country": "Poland",
+    "capital": "Warsaw",
     "capitals": [
-      "Varsóvia"
+      "Warsaw"
     ],
     "flag": "🇵🇱",
     "region": "Europe",
@@ -2056,7 +2056,7 @@
   {
     "id": "040",
     "code": "AT",
-    "country": "Áustria",
+    "country": "Austria",
     "capital": "Vienna",
     "capitals": [
       "Vienna"
@@ -2074,7 +2074,7 @@
   {
     "id": "348",
     "code": "HU",
-    "country": "Hungria",
+    "country": "Hungary",
     "capital": "Budapest",
     "capitals": [
       "Budapest"
@@ -2092,7 +2092,7 @@
   {
     "id": "498",
     "code": "MD",
-    "country": "Moldávia",
+    "country": "Moldova",
     "capital": "Chișinău",
     "capitals": [
       "Chișinău"
@@ -2110,7 +2110,7 @@
   {
     "id": "642",
     "code": "RO",
-    "country": "Romênia",
+    "country": "Romania",
     "capital": "Bucharest",
     "capitals": [
       "Bucharest"
@@ -2128,7 +2128,7 @@
   {
     "id": "440",
     "code": "LT",
-    "country": "Lituânia",
+    "country": "Lithuania",
     "capital": "Vilnius",
     "capitals": [
       "Vilnius"
@@ -2146,7 +2146,7 @@
   {
     "id": "428",
     "code": "LV",
-    "country": "Letônia",
+    "country": "Latvia",
     "capital": "Riga",
     "capitals": [
       "Riga"
@@ -2164,7 +2164,7 @@
   {
     "id": "233",
     "code": "EE",
-    "country": "Estônia",
+    "country": "Estonia",
     "capital": "Tallinn",
     "capitals": [
       "Tallinn"
@@ -2182,10 +2182,10 @@
   {
     "id": "276",
     "code": "DE",
-    "country": "Alemanha",
-    "capital": "Berlim",
+    "country": "Germany",
+    "capital": "Berlin",
     "capitals": [
-      "Berlim"
+      "Berlin"
     ],
     "flag": "🇩🇪",
     "region": "Europe",
@@ -2200,7 +2200,7 @@
   {
     "id": "100",
     "code": "BG",
-    "country": "Bulgária",
+    "country": "Bulgaria",
     "capital": "Sofia",
     "capitals": [
       "Sofia"
@@ -2218,10 +2218,10 @@
   {
     "id": "300",
     "code": "GR",
-    "country": "Grécia",
-    "capital": "Atenas",
+    "country": "Greece",
+    "capital": "Athens",
     "capitals": [
-      "Atenas"
+      "Athens"
     ],
     "flag": "🇬🇷",
     "region": "Europe",
@@ -2236,10 +2236,10 @@
   {
     "id": "792",
     "code": "TR",
-    "country": "Turquia",
-    "capital": "Ancara",
+    "country": "Türkiye",
+    "capital": "Ankara",
     "capitals": [
-      "Ancara"
+      "Ankara"
     ],
     "flag": "🇹🇷",
     "region": "Asia",
@@ -2254,7 +2254,7 @@
   {
     "id": "008",
     "code": "AL",
-    "country": "Albânia",
+    "country": "Albania",
     "capital": "Tirana",
     "capitals": [
       "Tirana"
@@ -2272,7 +2272,7 @@
   {
     "id": "191",
     "code": "HR",
-    "country": "Croácia",
+    "country": "Croatia",
     "capital": "Zagreb",
     "capitals": [
       "Zagreb"
@@ -2290,7 +2290,7 @@
   {
     "id": "756",
     "code": "CH",
-    "country": "Suíça",
+    "country": "Switzerland",
     "capital": "Bern",
     "capitals": [
       "Bern"
@@ -2308,7 +2308,7 @@
   {
     "id": "442",
     "code": "LU",
-    "country": "Luxemburgo",
+    "country": "Luxembourg",
     "capital": "Luxembourg",
     "capitals": [
       "Luxembourg"
@@ -2326,7 +2326,7 @@
   {
     "id": "056",
     "code": "BE",
-    "country": "Bélgica",
+    "country": "Belgium",
     "capital": "Brussels",
     "capitals": [
       "Brussels"
@@ -2344,7 +2344,7 @@
   {
     "id": "528",
     "code": "NL",
-    "country": "Países Baixos",
+    "country": "Netherlands",
     "capital": "Amsterdam",
     "capitals": [
       "Amsterdam"
@@ -2363,9 +2363,9 @@
     "id": "620",
     "code": "PT",
     "country": "Portugal",
-    "capital": "Lisboa",
+    "capital": "Lisbon",
     "capitals": [
-      "Lisboa"
+      "Lisbon"
     ],
     "flag": "🇵🇹",
     "region": "Europe",
@@ -2380,10 +2380,10 @@
   {
     "id": "724",
     "code": "ES",
-    "country": "Espanha",
-    "capital": "Madri",
+    "country": "Spain",
+    "capital": "Madrid",
     "capitals": [
-      "Madri"
+      "Madrid"
     ],
     "flag": "🇪🇸",
     "region": "Europe",
@@ -2398,7 +2398,7 @@
   {
     "id": "372",
     "code": "IE",
-    "country": "Irlanda",
+    "country": "Ireland",
     "capital": "Dublin",
     "capitals": [
       "Dublin"
@@ -2416,7 +2416,7 @@
   {
     "id": "540",
     "code": "NC",
-    "country": "Nova Caledônia",
+    "country": "New Caledonia",
     "capital": "Nouméa",
     "capitals": [
       "Nouméa"
@@ -2434,7 +2434,7 @@
   {
     "id": "090",
     "code": "SB",
-    "country": "Ilhas Salomão",
+    "country": "Solomon Islands",
     "capital": "Honiara",
     "capitals": [
       "Honiara"
@@ -2452,7 +2452,7 @@
   {
     "id": "554",
     "code": "NZ",
-    "country": "Nova Zelândia",
+    "country": "New Zealand",
     "capital": "Wellington",
     "capitals": [
       "Wellington"
@@ -2470,10 +2470,10 @@
   {
     "id": "036",
     "code": "AU",
-    "country": "Austrália",
-    "capital": "Camberra",
+    "country": "Australia",
+    "capital": "Canberra",
     "capitals": [
-      "Camberra"
+      "Canberra"
     ],
     "flag": "🇦🇺",
     "region": "Oceania",
@@ -2507,9 +2507,9 @@
     "id": "156",
     "code": "CN",
     "country": "China",
-    "capital": "Pequim",
+    "capital": "Beijing",
     "capitals": [
-      "Pequim"
+      "Beijing"
     ],
     "flag": "🇨🇳",
     "region": "Asia",
@@ -2542,10 +2542,10 @@
   {
     "id": "380",
     "code": "IT",
-    "country": "Itália",
-    "capital": "Roma",
+    "country": "Italy",
+    "capital": "Rome",
     "capitals": [
-      "Roma"
+      "Rome"
     ],
     "flag": "🇮🇹",
     "region": "Europe",
@@ -2560,7 +2560,7 @@
   {
     "id": "208",
     "code": "DK",
-    "country": "Dinamarca",
+    "country": "Denmark",
     "capital": "Copenhagen",
     "capitals": [
       "Copenhagen"
@@ -2578,10 +2578,10 @@
   {
     "id": "826",
     "code": "GB",
-    "country": "Reino Unido",
-    "capital": "Londres",
+    "country": "United Kingdom",
+    "capital": "London",
     "capitals": [
-      "Londres"
+      "London"
     ],
     "flag": "🇬🇧",
     "region": "Europe",
@@ -2596,7 +2596,7 @@
   {
     "id": "352",
     "code": "IS",
-    "country": "Islândia",
+    "country": "Iceland",
     "capital": "Reykjavik",
     "capitals": [
       "Reykjavik"
@@ -2614,7 +2614,7 @@
   {
     "id": "031",
     "code": "AZ",
-    "country": "Azerbaijão",
+    "country": "Azerbaijan",
     "capital": "Baku",
     "capitals": [
       "Baku"
@@ -2632,7 +2632,7 @@
   {
     "id": "268",
     "code": "GE",
-    "country": "Geórgia",
+    "country": "Georgia",
     "capital": "Tbilisi",
     "capitals": [
       "Tbilisi"
@@ -2650,7 +2650,7 @@
   {
     "id": "608",
     "code": "PH",
-    "country": "Filipinas",
+    "country": "Philippines",
     "capital": "Manila",
     "capitals": [
       "Manila"
@@ -2668,7 +2668,7 @@
   {
     "id": "458",
     "code": "MY",
-    "country": "Malásia",
+    "country": "Malaysia",
     "capital": "Kuala Lumpur",
     "capitals": [
       "Kuala Lumpur"
@@ -2704,7 +2704,7 @@
   {
     "id": "705",
     "code": "SI",
-    "country": "Eslovênia",
+    "country": "Slovenia",
     "capital": "Ljubljana",
     "capitals": [
       "Ljubljana"
@@ -2722,10 +2722,10 @@
   {
     "id": "246",
     "code": "FI",
-    "country": "Finlândia",
-    "capital": "Helsinque",
+    "country": "Finland",
+    "capital": "Helsinki",
     "capitals": [
-      "Helsinque"
+      "Helsinki"
     ],
     "flag": "🇫🇮",
     "region": "Europe",
@@ -2740,7 +2740,7 @@
   {
     "id": "703",
     "code": "SK",
-    "country": "Eslováquia",
+    "country": "Slovakia",
     "capital": "Bratislava",
     "capitals": [
       "Bratislava"
@@ -2758,7 +2758,7 @@
   {
     "id": "203",
     "code": "CZ",
-    "country": "Tchéquia",
+    "country": "Czechia",
     "capital": "Prague",
     "capitals": [
       "Prague"
@@ -2776,7 +2776,7 @@
   {
     "id": "232",
     "code": "ER",
-    "country": "Eritreia",
+    "country": "Eritrea",
     "capital": "Asmara",
     "capitals": [
       "Asmara"
@@ -2794,10 +2794,10 @@
   {
     "id": "392",
     "code": "JP",
-    "country": "Japão",
-    "capital": "Tóquio",
+    "country": "Japan",
+    "capital": "Tokyo",
     "capitals": [
-      "Tóquio"
+      "Tokyo"
     ],
     "flag": "🇯🇵",
     "region": "Asia",
@@ -2812,7 +2812,7 @@
   {
     "id": "600",
     "code": "PY",
-    "country": "Paraguai",
+    "country": "Paraguay",
     "capital": "Asunción",
     "capitals": [
       "Asunción"
@@ -2830,10 +2830,10 @@
   {
     "id": "887",
     "code": "YE",
-    "country": "Iêmen",
-    "capital": "Sana",
+    "country": "Yemen",
+    "capital": "Sana'a",
     "capitals": [
-      "Sana"
+      "Sana'a"
     ],
     "flag": "🇾🇪",
     "region": "Asia",
@@ -2848,10 +2848,10 @@
   {
     "id": "682",
     "code": "SA",
-    "country": "Arábia Saudita",
-    "capital": "Riade",
+    "country": "Saudi Arabia",
+    "capital": "Riyadh",
     "capitals": [
-      "Riade"
+      "Riyadh"
     ],
     "flag": "🇸🇦",
     "region": "Asia",
@@ -2866,7 +2866,7 @@
   {
     "id": "010",
     "code": "AQ",
-    "country": "Antártida",
+    "country": "Antarctica",
     "capital": "",
     "capitals": [],
     "flag": "🇦🇶",
@@ -2881,8 +2881,8 @@
   },
   {
     "id": "north-cyprus",
-    "country": "Chipre do Norte",
-    "capital": "Nicósia do Norte",
+    "country": "Northern Cyprus",
+    "capital": "North Nicosia",
     "lat": 35.1856,
     "lng": 33.3823,
     "region": "Asia",
@@ -2897,10 +2897,10 @@
   {
     "id": "196",
     "code": "CY",
-    "country": "Chipre",
-    "capital": "Nicósia",
+    "country": "Cyprus",
+    "capital": "Nicosia",
     "capitals": [
-      "Nicósia"
+      "Nicosia"
     ],
     "flag": "🇨🇾",
     "region": "Europe",
@@ -2915,7 +2915,7 @@
   {
     "id": "504",
     "code": "MA",
-    "country": "Marrocos",
+    "country": "Morocco",
     "capital": "Rabat",
     "capitals": [
       "Rabat"
@@ -2933,7 +2933,7 @@
   {
     "id": "818",
     "code": "EG",
-    "country": "Egito",
+    "country": "Egypt",
     "capital": "Cairo",
     "capitals": [
       "Cairo"
@@ -2951,7 +2951,7 @@
   {
     "id": "434",
     "code": "LY",
-    "country": "Líbia",
+    "country": "Libya",
     "capital": "Tripoli",
     "capitals": [
       "Tripoli"
@@ -2969,7 +2969,7 @@
   {
     "id": "231",
     "code": "ET",
-    "country": "Etiópia",
+    "country": "Ethiopia",
     "capital": "Addis Ababa",
     "capitals": [
       "Addis Ababa"
@@ -2987,7 +2987,7 @@
   {
     "id": "262",
     "code": "DJ",
-    "country": "Djibuti",
+    "country": "Djibouti",
     "capital": "Djibouti",
     "capitals": [
       "Djibouti"
@@ -3004,7 +3004,7 @@
   },
   {
     "id": "somaliland",
-    "country": "Somalilândia",
+    "country": "Somaliland",
     "capital": "Hargeisa",
     "lat": 9.56,
     "lng": 44.065,
@@ -3038,7 +3038,7 @@
   {
     "id": "646",
     "code": "RW",
-    "country": "Ruanda",
+    "country": "Rwanda",
     "capital": "Kigali",
     "capitals": [
       "Kigali"
@@ -3056,7 +3056,7 @@
   {
     "id": "070",
     "code": "BA",
-    "country": "Bósnia e Herzegovina",
+    "country": "Bosnia and Herzegovina",
     "capital": "Sarajevo",
     "capitals": [
       "Sarajevo"
@@ -3074,7 +3074,7 @@
   {
     "id": "807",
     "code": "MK",
-    "country": "Macedônia do Norte",
+    "country": "North Macedonia",
     "capital": "Skopje",
     "capitals": [
       "Skopje"
@@ -3092,7 +3092,7 @@
   {
     "id": "688",
     "code": "RS",
-    "country": "Sérvia",
+    "country": "Serbia",
     "capital": "Belgrade",
     "capitals": [
       "Belgrade"
@@ -3146,7 +3146,7 @@
   {
     "id": "780",
     "code": "TT",
-    "country": "Trinidad e Tobago",
+    "country": "Trinidad and Tobago",
     "capital": "Port of Spain",
     "capitals": [
       "Port of Spain"
@@ -3164,7 +3164,7 @@
   {
     "id": "728",
     "code": "SS",
-    "country": "Sudão do Sul",
+    "country": "South Sudan",
     "capital": "Juba",
     "capitals": [
       "Juba"

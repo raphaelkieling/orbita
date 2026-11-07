@@ -226,3 +226,15 @@ kbd { display: inline-flex; align-items: center; justify-content: center; min-wi
 @media (prefers-reduced-motion: reduce) {
   *, *:before, *:after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+.navbar-actions { display: flex; align-items: center; gap: 20px; }
+.settings-button { display: grid; place-items: center; color: #aaa; background: transparent; padding: 9px; border-radius: 6px; }
+.settings-button:hover { background: #242424; color: #fff; }
+.settings-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 0; border-bottom: 1px solid #333; font-size: 13px; }
+.settings-row select { background: #222; border: 1px solid #444; border-radius: 5px; padding: 9px 12px; color: #eee; }
+.settings-row strong { font-weight: 500; display: block; }
+.settings-row small { display: block; margin-top: 6px; color: #999; font-size: 11px; line-height: 1.5; }
+.settings-row input { width: 35px; height: 20px; accent-color: #a5c8b4; cursor: pointer; }
+.settings-section-title { color: #888; font-size: 11px; margin-top: 26px; }
+.palette-preview { display: flex; gap: 7px; margin-top: 20px; }
+.palette-preview i { height: 22px; flex: 1; background: #666; border-radius: 4px; }
+.settings-note { font-size: 11px; color: #888; line-height: 1.6; margin: 20px 0 0; }

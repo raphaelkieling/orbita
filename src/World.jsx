@@ -1,3 +1,4 @@
+import { i18n, t } from './i18n';
 import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 import Globe from 'react-globe.gl';
 import { MeshPhongMaterial, Color, AmbientLight, DirectionalLight } from 'three';
@@ -15,7 +16,7 @@ function countryTooltip(shape) {
   const place = atlasPlaces.find((place) => place.shapeName === shape.properties.name);
   const element = document.createElement('div');
   element.className = 'country-tooltip';
-  element.textContent = place ? `${place.flag} ${place.country} · ${place.capital || 'Sem capital'}` : shape.properties.name;
+  element.textContent = place ? `${place.flag} ${t(place.country)} · ${t(place.capital) || t("No capital")}` : shape.properties.name;
   return element;
 }
 
@@ -34,7 +35,7 @@ function markerElement(marker) {
   return element;
 }
 
-export default forwardRef(function World({ guess, question, result, finished, onSelect, exploring = false, selectedPlace, region = 'world' }, ref) {
+export default forwardRef(function World({ guess, question, result, finished, onSelect, exploring = false, selectedPlace, region = 'world', colorful = false }, ref) {
   const globe = useRef(null);
   const host = useRef(null);
   const [size, setSize] = useState({ width: window.innerWidth, height: window.innerHeight });
@@ -45,6 +46,8 @@ export default forwardRef(function World({ guess, question, result, finished, on
   useEffect(() => {
     const observer = new ResizeObserver(([entry]) => setSize({ width: entry.contentRect.width, height: entry.contentRect.height }));
     observer.observe(host.current);
+    // The globe ref is committed here; the library readiness callback can fire before mount.
+    setReady(true);
     return () => observer.disconnect();
   }, []);
 
@@ -67,10 +70,10 @@ export default forwardRef(function World({ guess, question, result, finished, on
     reveal(target) { if (ready) globe.current.pointOfView({ lat: target.lat, lng: target.lng, altitude: 1.7 }, duration); },
   }), [ready, duration, region]);
 
-  const markers = useMemo(() => exploring ? (selectedPlace ? [{ lat: selectedPlace.lat, lng: selectedPlace.lng, color: '#ef4444', text: selectedPlace.capital || selectedPlace.country }] : []) : [
-    ...(guess ? [{ ...guess, color: result ? '#999999' : '#ef4444', text: 'Seu palpite', isGuess: Boolean(result) }] : []),
-    ...(result ? [{ lat: question.lat, lng: question.lng, color: '#ef4444', text: question.kind === 'capital' ? question.capital : question.country }] : []),
-  ], [guess, result, question, exploring, selectedPlace]);
+  const markers = useMemo(() => exploring ? (selectedPlace ? [{ lat: selectedPlace.lat, lng: selectedPlace.lng, color: '#ef4444', text: t(selectedPlace.capital || selectedPlace.country) }] : []) : [
+    ...(guess ? [{ ...guess, color: result ? '#999999' : '#ef4444', text: t("Your guess"), isGuess: Boolean(result) }] : []),
+    ...(result ? [{ lat: question.lat, lng: question.lng, color: '#ef4444', text: t(question.kind === 'capital' ? question.capital : question.country) }] : []),
+  ], [guess, result, question, exploring, selectedPlace, i18n.language]);
 
   function keyControl(event) {
     const movement = { ArrowLeft: [0, -12], ArrowRight: [0, 12], ArrowUp: [12, 0], ArrowDown: [-12, 0] }[event.key];
@@ -81,7 +84,7 @@ export default forwardRef(function World({ guess, question, result, finished, on
     else globe.current.pointOfView({ altitude: Math.max(0.3, Math.min(4, pov.altitude * (event.key === '-' ? 1.3 : 0.75))) }, 0);
   }
 
-  return <div className="globe-host" ref={host} tabIndex={0} role="region" aria-label="Globo 3D. Arraste para girar, clique para selecionar. Use as setas e + ou - pelo teclado." onKeyDown={keyControl}>
+  return <div className="globe-host" ref={host} tabIndex={0} role="region" aria-label={t("3D globe. Drag to rotate, click to select. Use arrow keys and + or - on the keyboard.")} onKeyDown={keyControl}>
     <Globe ref={globe} width={size.width} height={size.height} backgroundColor="#00000000" globeMaterial={ocean}
       globeOffset={size.width > 800 ? [size.width * 0.125, 0] : [0, 0]}
       atmosphereColor="#aaaaaa" atmosphereAltitude={0.08}
@@ -90,7 +93,11 @@ export default forwardRef(function World({ guess, question, result, finished, on
         const place = atlasPlaces.find((place) => place.shapeName === country.properties.name);
         if (exploring && selectedPlace?.shapeName === country.properties.name || !exploring && result && country.id === question.id) return '#eeeeee';
         if (country === hovered && (exploring || !result && !finished)) return '#a0a0a0';
-        return place && !inRegion(place, region) ? '#333333' : '#686868';
+        if (place && !inRegion(place, region)) return '#333333';
+        if (!colorful) return '#686868';
+        const palette = ['#bd8e80', '#83a99b', '#9a9ec2', '#c7af78', '#7fabbf', '#b48fa7'];
+        const hash = [...country.properties.name].reduce((sum, char) => sum * 31 + char.charCodeAt(0) >>> 0, 0);
+        return palette[hash % palette.length];
       }}
       polygonLabel={exploring ? countryTooltip : () => ''}
       polygonSideColor={() => '#444444'} polygonStrokeColor={() => null} polygonsTransitionDuration={0}
@@ -99,8 +106,7 @@ export default forwardRef(function World({ guess, question, result, finished, on
       onPathClick={(_, event, point) => onSelect(point)}
       htmlElementsData={markers} htmlElement={markerElement} htmlAltitude={0.008} htmlTransitionDuration={0}
       arcsData={!exploring && result && guess && question.kind === 'capital' ? [{ startLat: guess.lat, startLng: guess.lng, endLat: question.lat, endLng: question.lng }] : []} arcColor={() => ['#999999', '#ef4444']} arcStroke={0.5} arcDashLength={0.3} arcDashGap={0.1} arcsTransitionDuration={0}
-      onGlobeReady={() => setReady(true)}
     />
-    {!ready && <div className="loading">Carregando globo…</div>}
+    {!ready && <div className="loading">{t("Loading globe\u2026")}</div>}
   </div>;
 });
